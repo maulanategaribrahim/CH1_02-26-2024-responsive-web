@@ -1,0 +1,21 @@
+
+/* css screen unutuk dibawah 600px */
+h1{
+    font-size: 30px;
+    color:blue;
+}
+/* jika layar dibawah 600px tulisan jadi 15px */
+@media (max-width: 600px){
+    h1 {
+        font-size: 15px;
+        color: yellowgreen;
+    }
+
+}
+/* jika landscape warna aqua dan ketika dibawah600 px akan yellow */
+@media(orientation: landscape) and (max-width: 600px) {
+    h1{
+        color: aqua;
+    }
+    
+}
