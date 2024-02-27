@@ -4,6 +4,9 @@
   color: blue;
 } */
 /* jika layar dibawah 600px tulisan jadi 15px */
+body{
+    font-family: "Merriweather", serif;
+}
 @media (max-width: 600px) {
   /* h1 {
     font-size: 15px;
