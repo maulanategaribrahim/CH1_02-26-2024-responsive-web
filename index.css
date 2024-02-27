@@ -16,3 +16,25 @@
     color: aqua;
   } */
 }
+@media(max-width: 600px ) {
+    .card{
+        width: 100%;
+        display: block;
+        text-align: justify;
+    }
+    .card img{
+        width: 100px;
+    }
+}
+.left-section{
+    float: left;
+}
+.left-section img{
+    object-fit: cover;
+}
+.right-section{
+    float: right;
+}
+.right-section img{
+    object-fit: cover;
+}
